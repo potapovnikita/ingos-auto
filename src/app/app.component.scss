@@ -1,0 +1,9 @@
+@import "src/style/base/variables";
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: $desktop-container-width;
+  margin: 57px auto 0;
+}
