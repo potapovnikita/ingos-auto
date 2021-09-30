@@ -1,0 +1,27 @@
+@import "src/style/base/variables";
+
+.header {
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  .header-container {
+    height: 57px;
+    width: 100%;
+    max-width: $desktop-container-width;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    img {
+      width: 255px;
+      height: 40px;
+    }
+  }
+}
